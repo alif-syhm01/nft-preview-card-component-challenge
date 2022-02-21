@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    /* reset css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 19em;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.3em;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card-header {
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+}
+
+.card-header:hover {
+    background-color: hsl(178, 100%, 50%);
+}
+
+.card-header img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.card-header img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.card-body {
+    margin-top: 1em;
+}
+
+.card-body h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.card-body h3:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-body p {
+    margin-top: 1em;
+    font-size: 1em;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+    color: hsl(215, 51%, 70%);
+    opacity: 0.7;
+}
+
+.card-detail {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-detail .eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8em;
+    display: flex;
+    gap: 5px;
+}
+
+.card-detail .days {
+    color: hsl(215, 51%, 70%);
+    opacity: 0.7;
+    font-size: 0.8em;
+    display: flex;
+    gap: 5px;
+}
+
+.card-footer {
+    margin-top: 1.5em;
+    border-top: 1px solid rgba(139, 172, 218, 0.3);
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-footer img {
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.card-footer span {
+    color: hsl(215, 51%, 70%);
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+.author-name {
+    color: hsl(0, 0%, 100%);
+}
+
+.author-name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.7em;
+}
